@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'flowbite-react';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Button>test</Button>
+    <div className='max-w-[1920px] mx-auto'>
+      <Home></Home>
     </div>
   );
 }
