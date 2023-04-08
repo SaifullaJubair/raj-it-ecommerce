@@ -5,10 +5,10 @@ import WinterCard from '../TrendingGroupCard/WinterCard';
 
 const TrendingProduct = () => {
    return (
-      <div className='bg-[#FAFAFA]  my-16'>
+      <div className='bg-[#FAFAFA]  mt-16'>
 
-         <div className='max-w-[1920px] lg:mx-[60px] md:mx-7  mx-7'>
-            <span className=' border-black py-1  border-2 px-1.5 font-semibold text-[34px] mr-2'>
+         <div className='max-w-[1920px] lg:mx-[60px] md:mx-7 py-10 mx-7'>
+            <span className=' border-black py-1  border-2 px-1.5 font-semibold lg:text-[34px] md:text-2xl text-xl mr-2'>
                <span className='font-extrabold'>Trending</span> Product
             </span>
 
