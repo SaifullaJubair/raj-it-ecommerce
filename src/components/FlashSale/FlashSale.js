@@ -4,15 +4,15 @@ import FlashCard from '../FlashCard/FlashCard';
 import FlashSaleTitleSection from './FlashSaleTitleSection';
 const FlashSale = () => {
    return (
-      <div>
-         <div className='flex'>
+      <div className='max-w-[1920px] mx-auto'>
+         <div className='flex mx-[60px]'>
             <div>
                {/* flash sate title  */}
                <div className='flex items-center justify-between'>
                   <FlashSaleTitleSection></FlashSaleTitleSection>
                   <div className='flex items-center justify-center '>
-                     <BsArrowLeftShort className='mr-2'></BsArrowLeftShort>
-                     <BsArrowRightCircleFill></BsArrowRightCircleFill>
+                     <BsArrowLeftShort className='mr-2 text-2xl'></BsArrowLeftShort>
+                     <BsArrowRightCircleFill className=' text-xl'></BsArrowRightCircleFill>
                   </div>
                </div>
                {/* flash sale card section  */}

@@ -1,10 +1,12 @@
 import React from 'react';
 import FlashSale from '../FlashSale/FlashSale';
+import TrendingProduct from '../TrendingProduct/TrendingProduct';
 
 const Home = () => {
    return (
-      <div className='mx-[60px] my-[100px]'>
+      <div className=' my-[100px]'>
          <FlashSale></FlashSale>
+         <TrendingProduct></TrendingProduct>
       </div>
    );
 };
