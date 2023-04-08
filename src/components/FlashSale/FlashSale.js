@@ -5,7 +5,7 @@ import FlashSaleTitleSection from './FlashSaleTitleSection';
 const FlashSale = () => {
    return (
       <div className='max-w-[1920px] mx-auto'>
-         <div className='flex mx-[60px]'>
+         <div className='flex lg:mx-[60px]'>
             <div>
                {/* flash sate title  */}
                <div className='flex items-center justify-between'>

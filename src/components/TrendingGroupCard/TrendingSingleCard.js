@@ -22,7 +22,7 @@ const TrendingSingleCard = () => {
                   <FaStar></FaStar>
                   <span className="bg-blue-100 text-gray-400 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">5.0</span>
                </div>
-               <h5 className="my-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television</h5>
+               <h5 className="my-2 lg:text-xl md:text-md text-base font-semibold tracking-tight text-gray-900 dark:text-white">Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television</h5>
 
                <div className="flex items-center ">
                   <span className="font-bold text-[#5B9982] text-base">$ 599</span>
